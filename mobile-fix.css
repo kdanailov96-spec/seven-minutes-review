@@ -1,0 +1,45 @@
+@media (max-width: 900px){
+  .sheet{overflow:hidden}
+
+  table{
+    width:100%;
+    max-width:100%;
+    table-layout:fixed;
+    font-size:8.7pt;
+    line-height:1.38;
+  }
+
+  th,td{
+    min-width:0;
+    max-width:100%;
+    padding:7px 6px;
+    overflow-wrap:anywhere;
+    word-break:normal;
+    hyphens:auto;
+  }
+
+  .badge{
+    white-space:normal;
+    max-width:100%;
+    line-height:1.18;
+    text-align:left;
+  }
+
+  .authority th:nth-child(1),
+  .authority td:nth-child(1){width:27%}
+
+  .authority th:nth-child(2),
+  .authority td:nth-child(2){width:31%}
+
+  .authority th:nth-child(3),
+  .authority td:nth-child(3){width:42%}
+
+  .authority td:first-child{width:27%}
+}
+
+@media (max-width: 430px){
+  table{font-size:8.35pt}
+  th{font-size:7pt;letter-spacing:.055em}
+  th,td{padding:7px 5px}
+  .badge{font-size:6.5pt;padding:4px 6px;letter-spacing:.075em}
+}
